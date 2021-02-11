@@ -1,0 +1,25 @@
+.payment-card {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 9px solid #104772;
+}
+
+.payment-header {
+  background: #104772 0% 0% no-repeat padding-box;
+  /*height: 97px;*/
+}
+
+.payment-body {
+  background-color: #F7F7F7;
+}
+
+.border-blue {
+  border: 1px solid #104772;
+}
+
+.table-image {
+  height: 90px;
+  width: 120px;
+  border-radius: 10px !important;
+}

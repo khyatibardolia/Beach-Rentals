@@ -1,0 +1,78 @@
+.rental-view {
+   /* margin-top: 150px;*/
+}
+.rental-text{
+    color: #104772;
+    font-family: Bold Roman;
+    font-size: 30px;
+}
+.round-button{
+    width: 43px;
+    height: 43px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.arrow-view  {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.card-view {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+.cart-image{
+    height: 100%;
+    width: 100%;
+}
+.carousel-item .cart-image:hover {
+    width: 100%;
+    height: 100%;
+    background: #104772 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+/*.card-image-layer:hover {
+    width: 95%;
+    height: auto;
+    background: #104772 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.6;
+    border-radius: 20px;
+}*/
+.overlay-title {
+/*    font-family: Black Roman;*/
+    color:  #FFF;
+    margin-top: 10px;
+}
+.layer-text-view {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+.activity-view{
+    position: absolute;
+    right: 0;
+    bottom: 49px;
+    margin-right: 53px;
+    letter-spacing: 0.63px;
+    color: #FFF;
+    font-size: 25px;
+}
+.car-view {
+
+}

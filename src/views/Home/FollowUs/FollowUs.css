@@ -1,0 +1,76 @@
+.follow-us-view {
+  position: relative;
+}
+
+.back-img-layer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #104772 0% 0% no-repeat padding-box;
+  opacity: 0.65;
+}
+
+.back-laye-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-text {
+  font-family: Bold Roman;
+  font-size: 35px;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-left: 75px;
+  margin-top: 56px;
+}
+
+.follow-us-text {
+  color: #F29119;
+  font-family: Regular;
+  margin-top: 38px;
+  font-size: 25px;
+}
+
+.icon-view-followus {
+  flex-direction: column;
+  margin-right: 14px;
+}
+
+.followus-text {
+  font-size: 30px;
+  letter-spacing: 1.75px;
+}
+
+.card-main-view {
+  /*margin-right: -50px;*/
+}
+
+.about-us-banner {
+  height: 540px;
+  width: 100%;
+}
+
+#dynamic-carousel .carousel-item {
+  width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  #dynamic-carousel .carousel-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card-main-view {
+    max-height: 320px;
+    min-height: 340px;
+    margin-bottom: 2rem;
+  }
+}
+
+#dynamic-carousel .carousel-item {
+  width: 90%;
+}

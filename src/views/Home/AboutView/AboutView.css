@@ -1,0 +1,55 @@
+.about-text{
+    font-family: Bold Roman;
+    font-weight: bold;
+    font-size: 26px;
+    color: #122D5E;
+    text-align: center;
+    text-transform: uppercase;
+}
+.AboutImage{
+    display: block;
+    height: max-content;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+.About-Image-show{
+    width: 375px;
+    height: 350px;
+    border-radius: 28px;
+}
+.transparent-image {
+    width: 100%;
+    height: auto;
+    background: transparent url('../../../assets/img/bag-bus-car-cart-274108.png') 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+.title-text-view {
+    margin-left: 30px;
+    margin-top: 23px;
+}
+.title-text-about{
+    font-size: 30px;
+    font-family: Bold Roman;
+    color: #122D5ECC;
+}
+.diffrent-text{
+    color: #F29119;
+}
+.desc-text{
+    font-size: 14px;
+    color: #616161;
+    font-family: Regular;
+    width: 67%;
+}
+.button-view {
+    width: 186px;
+}
+.image-content-view {
+    /*margin-top: 83px;*/
+}

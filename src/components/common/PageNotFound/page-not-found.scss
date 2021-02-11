@@ -1,0 +1,36 @@
+.page-not-found {
+  background-color: #F7F7F8;
+  background-image: linear-gradient(43deg, hsla(0, 0%, 41.2%, .02), hsla(0, 0%, 41.2%, .02) 62%, hsla(0, 0%, 89%, .02) 0, hsla(0, 0%, 89%, .02) 69%, rgba(24, 24, 24, .02) 0, rgba(24, 24, 24, .02) 80%, rgba(13, 13, 13, .02) 0, rgba(13, 13, 13, .02) 82%, rgba(13, 13, 13, .02) 0, rgba(13, 13, 13, .02)), linear-gradient(31deg, hsla(0, 0%, 60.8%, .02), hsla(0, 0%, 60.8%, .02) 29%, hsla(0, 0%, 64.3%, .02) 0, hsla(0, 0%, 64.3%, .02) 41%, hsla(0, 0%, 78.4%, .02) 0, hsla(0, 0%, 78.4%, .02) 74%, hsla(0, 0%, 89.8%, .02) 0, hsla(0, 0%, 89.8%, .02) 79%, rgba(15, 15, 15, .02) 0, rgba(15, 15, 15, .02)), linear-gradient(319deg, rgba(39, 39, 39, .02), rgba(39, 39, 39, .02) 17%, rgba(49, 49, 49, .02) 0, rgba(49, 49, 49, .02) 25%, rgba(59, 59, 59, .02) 0, rgba(59, 59, 59, .02) 32%, hsla(0, 0%, 76.1%, .02) 0, hsla(0, 0%, 76.1%, .02) 46%, hsla(0, 0%, 86.3%, .02) 0, hsla(0, 0%, 86.3%, .02)), linear-gradient(113deg, hsla(0, 0%, 73.7%, .02), hsla(0, 0%, 73.7%, .02) 15%, hsla(0, 0%, 87.5%, .02) 0, hsla(0, 0%, 87.5%, .02) 46%, rgba(21, 21, 21, .02) 0, rgba(21, 21, 21, .02) 88%, rgba(93, 93, 93, .02) 0, rgba(93, 93, 93, .02) 94%, hsla(0, 0%, 51%, .02) 0, hsla(0, 0%, 51%, .02)), linear-gradient(29deg, hsla(0, 0%, 52.5%, .02), hsla(0, 0%, 52.5%, .02) 27%, hsla(0, 0%, 71%, .02) 0, hsla(0, 0%, 71%, .02) 41%, rgba(81, 81, 81, .02) 0, rgba(81, 81, 81, .02) 46%, hsla(0, 0%, 99.2%, .02) 0, hsla(0, 0%, 99.2%, .02) 58%, rgba(74, 74, 74, .02) 0, rgba(74, 74, 74, .02)), linear-gradient(90deg, #e5e5e5, #e4e4e4);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font: normal normal bold 33px Circular Std Black;
+  }
+
+  p {
+    font: normal normal normal 17px/30px Circular Std Black;
+  }
+
+  .btn-back {
+    color: #fff;
+    background-color: #f77e17;
+    border-color: #f77e17;
+    padding: .4rem 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: .35rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+
+    &:hover {
+      background-color: #f88626;
+      border-color: #f88626;
+      box-shadow: 0 2px 7px rgba(0, 0, 0, .28);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,575 @@
+/** global scss variable */
+/** import file from modules */
+@import "../src/assets/sass/app";
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//@import "~animate.css/animate.min.css";
+//@import "~video-react/styles/scss/video-react";
+//@import "~slick-carousel/slick/slick.css";
+//@import "~slick-carousel/slick/slick-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #21aae9, #1b92ca, #147bac, #0d658e, #065072);
+  border: 1px solid $white;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to bottom, #21aae9, #1b92ca, #147bac, #0d658e, #065072);
+}
+
+hr {
+  border-top: 2px solid rgba(140, 140, 140, 0.5) !important;
+}
+
+.btn:hover {
+  color: #ffffff !important;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.f-w-600 {
+  font-weight: 600 !important;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-16 {
+  font-size: 16px !important;
+}
+
+.f-18 {
+  font-size: 18px;
+  @media screen and (max-width: 576px) {
+    font-size: 16px;
+  }
+}
+
+.f-20 {
+  font-size: 20px !important;
+}
+
+.f-22 {
+  font-size: 22px;
+}
+
+.f-24 {
+  font-size: 24px;
+  @media screen and (max-width: 576px) {
+    font-size: 18px;
+  }
+}
+
+.f-30 {
+  font-size: 30px !important;
+}
+
+.f-32 {
+  font-size: 32px;
+  @media screen and (max-width: 576px) {
+    font-size: 28px;
+  }
+}
+
+.f-35 {
+  font-size: 35px;
+  @media screen and (max-width: 576px) {
+    font-size: 30px;
+  }
+}
+
+.f-40 {
+  font-size: 40px;
+}
+
+.f-42 {
+  font-size: 42px;
+  @media screen and (max-width: 1024px) {
+    font-size: 25px;
+  }
+}
+
+.f-44 {
+  font-size: 44px;
+  @media screen and (max-width: 1024px) {
+    font-size: 27px;
+  }
+}
+
+.f-60 {
+  font-size: 60px;
+}
+
+.f-28 {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .f-30 {
+    font-size: 24px;
+  }
+  .f-20 {
+    font-size: 18px;
+  }
+  .f-22 {
+    font-size: 20px;
+  }
+  .f-16 {
+    font-size: 15px !important;
+  }
+  .f-16 {
+    font-size: 14px;
+  }
+  .f-60 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .f-30 {
+    font-size: 22px;
+  }
+  .f-20 {
+    font-size: 16px;
+  }
+  .f-22 {
+    font-size: 16px;
+  }
+  .f-14 {
+    font-size: 12px;
+  }
+  .f-16 {
+    font-size: 14px !important;
+  }
+  .f-12 {
+    font-size: 11px;
+  }
+  .f-28 {
+    font-size: 20px;
+  }
+  .f-60 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .f-28 {
+    font-size: 19px;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.c-gray-1 {
+  color: #cfcfcf;
+}
+
+.light-bg {
+  background-color: #F1F1F1;
+}
+
+.btn-orange {
+  background-color: #F29119;
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font: normal normal normal 18px/30px Circular Std Medium;
+}
+
+.text-orange {
+  color: #F29119;
+}
+
+.nav-link:hover {
+  span {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #F29119;
+  }
+}
+
+.nav-link.active {
+  span {
+    border-bottom: 3px solid #F29119;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  nav {
+    .navbar-collapse {
+      display: none !important;
+    }
+  }
+}
+
+/*@media (min-width: 426px) and (max-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+
+    ul {
+      .nav-item {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+  .navbar-expand-md {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}*/
+
+.drawer {
+  width: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+  .content {
+    width: 50%;
+    background-color: #104772;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    /*transition: 0.3s;*/
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .drawer {
+    display: none !important;
+  }
+}
+
+.btn-booking {
+  border: none !important;
+
+  &:hover {
+    background-color: #e6e6e6 !important;
+    border-color: #adadad !important;
+  }
+
+  &:focus {
+    border-color: #adadad !important;
+    outline: none !important;
+  }
+}
+
+.f-w-500 {
+  font-weight: 500;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.bg-blue {
+  background-color: #104772 !important;
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-blue {
+  color: #104772 !important;
+
+  &:hover, &:focus {
+    color: #104772;
+    text-decoration: none
+  }
+}
+
+.font-bold-roman {
+  font-family: "Bold Roman";
+}
+
+.border-radius {
+  border-radius: 20px;
+}
+
+.bg-orange {
+  background-color: #F29119;
+  color: #ffffff;
+}
+
+.w-16 {
+  width: 16%;
+}
+
+.color-gray {
+  color: #616161;
+  font-weight: 400;
+}
+
+.gray-text {
+  font: normal normal normal 16px/30px Circular Std Book;
+  letter-spacing: 0;
+  color: #616161;
+  font-weight: 400;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.table-bg {
+  background: #F7F7F7 0 0 no-repeat padding-box;
+}
+
+.w-52 {
+  width: 52%;
+}
+
+.form-layout {
+  .custom-input-div {
+    .has-error {
+      border: 1px solid red;
+    }
+  }
+}
+
+.custom-input-div {
+  .has-error {
+    border-bottom: 2px solid red;
+  }
+
+  ._custom-input-border {
+    font-size: 13px;
+    color: red;
+    font-weight: 400;
+
+    ul {
+      li {
+        &::before {
+          color: red;
+          font-size: x-small;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  nav {
+    .call-now-view {
+      display: none !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .navbar-collapse {
+    padding-right: 0 !important;
+  }
+}
+
+.o-50 {
+  opacity: 0.5 !important;
+}
+
+.h-67 {
+  height: 67% !important;
+}
+
+fieldset {
+  display: block !important;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove !important;
+  border-color: white !important;
+  border-image: initial !important;
+}
+
+legend {
+  display: block !important;
+  width: auto !important;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+@media only screen and (max-width: 425px) {
+  .reserve-card {
+
+    .first-date-input, .second-date-input {
+      width: unset !important;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center !important;
+    }
+
+    form {
+      .btn-checkout {
+        width: 60% !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #reserve-slider {
+    .carousel-inner {
+      height: 100%;
+
+      .carousel-item {
+        height: 100%;
+      }
+    }
+
+    .row {
+      height: 100%;
+
+      .img-container {
+        height: 100% !important;
+        max-width: unset !important;
+        max-height: unset !important;
+
+        img {
+          height: 100% !important;
+          max-width: unset !important;
+          max-height: unset !important;
+        }
+      }
+    }
+  }
+}
+
+.reserve-card {
+  .first-date-input, .second-date-input {
+    .react-datepicker__input-container {
+      width: 120px;
+    }
+  }
+
+  /*.react-datepicker-wrapper {
+    border: 1px solid #dee2e6 !important;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    border-radius: .25rem !important;
+  }*/
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+
+  .react-datepicker__input-container {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.booking-page {
+  .react-datepicker__tab-loop {
+    .react-datepicker-popper {
+      .react-datepicker {
+        .react-datepicker__triangle {
+          left: 228px !important;;
+        }
+      }
+    }
+  }
+}
+
+.red-border {
+  border-color: red !important;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.terms-of-service-data {
+  p {
+    margin-bottom: 5px !important;
+  }
+}
+.height-60 {
+  height: 60% !important;
+}
+.react-datepicker-wrapper {
+  .react-datepicker__input-container {
+    width: 100% !important;
+  }
+}
+.react-datepicker-time__input {
+  width: 100% !important;
+}
+.label-blue {
+  color: #122D5E !important;
+  font-weight: 500
+}
+.h-60 {
+  height: 60% !important;
+}
+.align-drpdwn {
+  position: relative;
+  top: -8px;
+}
+.h-max-content {
+  height: max-content !important;
+}

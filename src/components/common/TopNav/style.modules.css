@@ -1,0 +1,125 @@
+.main-nav {
+    width: 100%;
+    height: 600px;
+    /*margin-top: 10px;*/
+}
+
+.background-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 100%;
+}
+
+.image_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 0.66;
+    background: transparent linear-gradient(180deg, #122D5E 0%, #1122526B 59%, #122D5E 100%) 0% 0% no-repeat padding-box;
+}
+
+.navbar-nav .nav-item .nav-link .tab-text {
+    color: #ffffff;
+    font-family: Regular Roman;
+    font-size: 16px;
+    /* letter-spacing: 0.48px; */
+}
+.navbar-nav .nav-item:before {
+    content: none !important;
+}
+
+.navbar-nav .nav-item .nav-link .tab-text.active {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #F29119;
+    padding-bottom: 10px;
+}
+
+.number {
+    color: #F29119;
+    font-family: Bold Roman;
+    text-transform: uppercase;
+}
+
+.logo-image {
+    height: auto;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.infotext {
+    color: #FFF;
+    font-family: Bold Roman;
+    font-size: 50px;
+    margin-top: 10%;
+    width: 100%;
+    /* margin-left: 18%;*/
+}
+
+.call-text {
+    color: #FFF;
+    font-family: Bold Roman;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+}
+
+.call-number {
+    position: relative;
+    display: block;
+    font-family: Bold Roman;
+    color: #F29119;
+    width: 100%;
+    margin-top: -10px;
+    /* display: block; */
+}
+
+.call-number:hover {
+    color: #F29119 !important;
+}
+
+.call-number:focus {
+    color: #F29119 !important;
+}
+
+.form-container {
+    margin-top: 4%;
+    width: 100%;
+}
+
+.res-button-view {
+    /*width: 200px;*/
+}
+
+.side-nav-bar {
+    display: block !important;
+    height: 100%;
+    width: 250px;
+    color: #ffffff;
+    background-color: #3f729b;
+}
+
+.home-bg {
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background: url("../../../assets/img/home_main_photo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px)   {
+    .menu {
+        margin-right: 2.5rem;
+    }
+}

@@ -1,0 +1,56 @@
+.qaute-view {
+  width: 100%;
+  height: 100%;
+  background: #FFF 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  padding: 22px;
+}
+
+.desc-quote-text {
+  text-align: left;
+  font: normal normal normal 16px/30px Circular Std Book;
+  letter-spacing: 0.45px;
+  color: #616161;
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.user-name {
+  width: 100%;
+  /*height: 18px;*/
+  text-align: left;
+  font-family: Regular;
+  font-size: 18px;
+  color: #104772;
+}
+
+.user-bio {
+  width: 100%;
+  height: 23px;
+  text-align: left;
+  font-family: Regular;
+  font-size: 16px;
+  letter-spacing: 0.45px;
+  color: #6B6B6B;
+}
+
+.user-bio-view {
+  margin-top: 30px;
+}
+
+.quote-icon {
+  width: 25px;
+  height: auto;
+}
+
+.card-main-view {
+  max-height: 420px;
+  min-height: 420px;
+}
+
+.quote-user-view img {
+  /*max-width: 70px;*/
+  max-height: 50px;
+}

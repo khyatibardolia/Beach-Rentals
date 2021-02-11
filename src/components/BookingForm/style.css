@@ -1,0 +1,69 @@
+.main-booking {
+  height: auto;
+  width: 54%;
+  background-color: #FFF;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+}
+.form-view {
+  padding: 17px;
+}
+
+.title-view {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.title {
+  color: #122D5E;
+  font-family: Black Roman;
+}
+
+.date-view {
+  cursor: pointer;
+  width: 100%;
+  padding: 7px;
+  height: 75%;
+  margin-bottom: 15px;
+  box-shadow: 0px 3px 6px rgba(44, 108, 158, 0.24);
+  background: #FFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.category-view {
+  padding: 0 7px;
+}
+
+.button-view {
+  /* height: 65px;
+  width: 326px;
+  background: #122D5E;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-top: 38px; */
+}
+
+.button-show {
+  background: #122D5E;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 65px;
+  width: 100%;
+  padding: 13px;
+}
+
+.icon {
+  width: 100%;
+  height: 65px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  color: #FFF;
+  font-size: 22px;
+  font-family: Black Roman;
+}

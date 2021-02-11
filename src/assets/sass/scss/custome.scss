@@ -1,0 +1,530 @@
+@import "../scss/template/media-queries";
+// Common Card CSS
+.card {
+  border-radius: 5px 5px 0px 0px;
+}
+.card-title-text {
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 5px 5px 0px 0px;
+}
+.single-card-title-text {
+  font-size: 22px;
+  padding: 15px 0 15px 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-description {
+  padding: 1rem 0;
+  p {
+    font-size: 15px;
+  }
+}
+
+// Common CSS for User Media
+.media {
+  align-items: flex-end;
+  .users-avatar-shadow {
+    border-radius: 100%;
+    box-shadow: 2px 1px 12px 1px rgba(0, 0, 0, 0.4);
+  }
+  .media-body {
+    max-width: fit-content;
+    .user-title{
+      font-size: 13px;
+    }
+    .user-name {
+      line-height: 21px;
+    }
+  }
+}
+
+
+// Multiple File Upload
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  .upload-btn {
+    border: 1px solid #5A443D;
+    color: #5A443D;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer!important;
+    @include mobile {
+      padding: 8px 8px;
+    }
+  }
+  input[type=file] {
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: #663399;
+    cursor: pointer
+  }
+  input[type=file]:disabled {
+    pointer-events: none;
+  }
+  .upload-btn:disabled  {
+    color: rgba(90, 68, 61, 0.5);
+    border-color: rgba(90, 68, 61, 0.5);
+  }
+}
+
+//  Common CSS for Filter Section
+ .filter-section {
+   .filter-content-card {
+     background: #FFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 15px 30px #CBCBCB33;
+     border: 1px solid #F0F0F0;
+     border-radius: 0;
+     .filter-content-card-body {
+       padding-right: 1rem;
+       padding-left: 1rem;
+     }
+   }
+   .filter-main-title {
+     border-radius: 5px;
+   }
+   .filter-type {
+     .card-header {
+       border-radius: 5px;
+     }
+     .card-body {
+       background: #FFF 0% 0% no-repeat padding-box;
+       border: 1px solid #F0F0F0;
+       padding: 2px 0;
+       .custom-control-right:not(:last-child) {
+         border-bottom: 1px solid #F0F0F0;
+
+       }
+       .custom-control-right {
+         margin-right: 0;
+         padding-left: 15px;
+         padding-right: 45px;
+         padding-bottom: 6px;
+         padding-top: 6px;
+       }
+
+     }
+     .collapse {
+       max-height: 50vh;
+       overflow-y: auto;
+     }
+   }
+   @media only screen and (max-width: 767px) {
+     overflow: auto;
+     top: 100px;
+   }
+ }
+
+
+   // CSS Image Hover Effect
+.img-grid-hover {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 1em;
+  list-style: none;
+  figure {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 1%;
+    width: 200px;
+    height: 150px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    img {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      max-width: 100%;
+      opacity: 0.8;
+    }
+    figcaption {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      &::before {
+        pointer-events: none;
+      }
+      &::after {
+        pointer-events: none;
+      }
+      >a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        text-indent: 200%;
+        white-space: nowrap;
+        font-size: 0;
+        opacity: 0;
+      }
+    }
+    h2 {
+      word-spacing: -0.15em;
+      font-weight: 300;
+      margin: 0;
+      span {
+        font-weight: 800;
+      }
+    }
+    p {
+      margin: 0;
+      letter-spacing: 1px;
+      font-size: 68.5%;
+    }
+  }
+}
+.img-grid-hover-lily {
+  position: relative;
+  margin: 0 auto;
+  list-style: none;
+  figure {
+    position: relative;
+    overflow: hidden;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    img {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      max-width: 100%;
+      opacity: 0.8;
+    }
+    figcaption {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      &::before {
+        pointer-events: none;
+      }
+      &::after {
+        pointer-events: none;
+      }
+      >a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        text-indent: 200%;
+        white-space: nowrap;
+        font-size: 0;
+        opacity: 0;
+      }
+    }
+    h2 {
+      word-spacing: -0.15em;
+      font-weight: 300;
+      margin: 0;
+      span {
+        font-weight: 800;
+      }
+    }
+    p {
+      margin: 0;
+      letter-spacing: 1px;
+      font-size: 68.5%;
+    }
+  }
+}
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+figure.effect-chico {
+  img {
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(1.12);
+  }
+  &:hover {
+    img {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    figcaption {
+      &::before {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    p {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  figcaption {
+    &::before {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      border: 1px solid #fff;
+      content: '';
+      transform: scale(1.1);
+      opacity: 0;
+      transition: opacity 0.35s, transform 0.35s;
+    }
+  }
+  p {
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.35s;
+    margin: 0 auto;
+    max-width: 200px;
+    transform: scale(1.5);
+  }
+  h2 {
+    padding: 20% 0 20px 0;
+  }
+}
+
+/***** Milo *****/
+/*---------------*/
+figure.effect-lily {
+  img {
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100%);
+    opacity: 1;
+    transition: opacity 0.35s, transform 0.35s;
+   // transform: translate3d(-40px,0,0);
+  }
+  figcaption {
+    text-align: left;
+    >div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 2em;
+      width: 100%;
+      height: 50%;
+    }
+  }
+  h2 {
+    transform: translate3d(0,40px,0);
+    transition: transform 0.35s;
+  }
+  span {
+    transform: translate3d(0,40px,0);
+    color: rgba(255,255,255,0.8);
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.35s;
+    background-color: white;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  span:focus {
+    outline: none;
+  }
+  &:hover {
+    img {
+      opacity: 0.7;
+      //transform: translate3d(0,0,0);
+    }
+    span {
+      opacity: 1;
+      transform: translate3d(0,0,0);
+      -webkit-transition-delay: 0.05s;
+      transition-delay: 0.05s;
+      -webkit-transition-duration: 0.35s;
+      transition-duration: 0.35s;
+    }
+  }
+}
+/*---------------*/
+
+
+
+// Custome CSS for Modal
+
+.custom-modal {
+  .modal-title {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .modal-header, .modal-footer {
+    border: none;
+  }
+  .modal-body {
+    background: #ffffff;
+  }
+
+  .modal-content {
+    border-radius: 15px;
+  }
+
+  @media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+      max-width: 700px;
+    }
+  }
+}
+
+
+
+// CSS For Team Member Profile
+
+.team-member {
+  .card-content:focus, .card:focus {
+    outline: none;
+  }
+  .card {
+    margin: 15px 0;
+    box-shadow: -8px 8px 14px 0 rgba(25,42,70,.11);
+
+    .card-title {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+  }
+  img {
+    height: 205px;
+  }
+}
+
+
+// Shadow Class for image
+.users-avatar-shadow {
+  box-shadow: 2px 4px 14px 1px rgba(0,0,0,.4);
+}
+
+
+
+// Commont title CSS
+
+.title-22 {
+  font-size: 22px;
+}
+
+.title-18 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.title-30 {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+
+// Custome CSS for Filter Section
+
+
+
+@media only screen and (max-width: 768px) {
+  .content-wrapper {
+    padding: 0 5px;
+  }
+  .card-title-text {
+    font-size: 18px;
+  }
+
+  .single-card-title-text {
+    font-size: 18px;
+  }
+}
+
+
+// Spinner classes
+.spinner {
+  display: inline-block;
+  // animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-reverse {
+  display: inline-block;
+  animation: spin-reverse 1s linear infinite;
+}
+@keyframes spin-reverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+
+
+.card:focus {
+  outline: none !important;
+}
+
+.card-body.cursor-pointer:focus {
+  outline: none;
+}
+
+.card-body.cursor-pointer {
+  .card-text:focus{
+    outline: none;
+  }
+}
+
+
+// Module Wies Popover Class
+.dashboard-popover {
+  border-color: #5A443D ;
+  color: #5A443D !important;
+  font-family: Poppins !important;
+
+}
+
+
+.reset-image  {
+  i {
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    opacity: 1;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 100%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+}

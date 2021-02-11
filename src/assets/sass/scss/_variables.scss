@@ -1,0 +1,29 @@
+// Theme Colors
+$theme-colors: (
+  primary: #5A443D,
+  secondary: #F29119
+);
+
+// Spacing
+
+$spacer: 1.5rem;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .50),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+) !default;
+
+// Body
+$body-bg:       #f5f7fa;
+
+// Fonts
+$font-family-sans-serif: "Montserrat", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-content: "Rubik", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$font-size-root: 16px;
+
+$font-family-base: Poppins

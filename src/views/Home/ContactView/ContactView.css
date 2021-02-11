@@ -1,0 +1,46 @@
+.contact-view{
+    width: 100%;
+    /*margin-top: 145px;*/
+}
+.icon-view{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #FFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+}
+.icon-text{
+  color: #104772;
+  font-family: Bold Roman;
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  margin-top: 18px;
+}
+.icon-text-main {
+    margin-top: 30px;
+}
+.info-text-title{
+  font-family: Bold Roman;
+  color: #122D5ECC;
+  font-size: 30px;
+}
+.info-text-title-inner {
+    color: #F29119;
+}
+.info-desc{
+    color: #616161;
+    width: 439px;
+    font-family: Regular;
+    margin-top: 26px;
+    font-size: 14px;
+}
+.info-contect-button{
+    width: 186px;
+}
+.icon-size{
+    height: 35px;
+    width: 35px;
+}

@@ -1,0 +1,144 @@
+.mainimg img {
+    top: 95px;
+    left: 0px;
+    width: 1366px;
+    height: 220px;
+    background: transparent url('img/Image 12.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.carimg {
+    top: 39px;
+    left: 19px;
+    width: 70%;
+    height: 333px;
+    background: transparent url('Image 11.png') 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.cartimg {
+    top: 39px;
+    left: 38px;
+    width: 140px;
+    height: 104px;
+    background: transparent url('cart4@4x.png') 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 20px 0 0 20px;
+    /* border: 2px solid red; */
+}
+
+.titlebox {
+    margin-top: 39px;
+    margin-left: 48px;
+    width: 485px;
+    height: 50px;
+    background: #104772 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 1;
+}
+
+.title {
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 266px;
+    height: 30px;
+    text-align: left;
+    font: Bold Roman 22px/30px Playfair Display;
+    letter-spacing: 0.66px;
+    color: #FFF;
+    opacity: 1;
+}
+
+.cartcontent {
+    margin-top: -4px;
+    margin-left: 0px;
+    width: 485px;
+    height: 280px;
+    background: #F1F1F191 0% 0% no-repeat padding-box;
+    /* border-radius: 20px 20px 0px 0px; */
+    opacity: 1;
+    padding: 10px;
+}
+
+.contenttxt {
+    top: 434px;
+    left: 918px;
+    width: 443px;
+    height: 184px;
+    text-align: left;
+    font: Regular 16px/30px Circular Std Book;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 0.75;
+}
+
+.price {
+    top: 630px;
+    left: 923px;
+    width: 112px;
+    height: 18px;
+    text-align: left;
+    font: Regular 18px/26px Circular Std Medium;
+    letter-spacing: 0.54px;
+    color: #104772;
+    opacity: 1;
+}
+
+.bookbtn {
+    top: 630px;
+    left: 1219px;
+    width: 154px;
+    height: 45px;
+    background: #F29119 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 10px;
+    color: #fff;
+    float: right;
+    text-align: center;
+}
+
+.star {
+    top: 656px;
+    left: 947px;
+    width: 22px;
+    height: 21px;
+    background: transparent url('img/star (3).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.contentbox{
+    top: 785px;
+left: 211px;
+width: 1174px;
+height: 969px;
+background: #F7F7F7 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 10px;
+}
+.contenttitle{
+    margin-top: 8px;
+margin-left: 12px;
+width: 236px;
+height: 27px;
+text-align: left;
+font: Bold Roman 20px/27px Playfair Display;
+letter-spacing: 0.6px;
+color: #104772;
+opacity: 1;
+font-weight: bold;
+/* border: 2px solid red; */
+}
+.textcontent{
+top: 863px;
+left: 232px;
+width: 1129px;
+height: 99px;
+text-align: left;
+font: Regular 16px/30px Circular Std Book;
+letter-spacing: 0px;
+color: #616161;
+opacity: 0.75;
+}

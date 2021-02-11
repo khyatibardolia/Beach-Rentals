@@ -1,0 +1,12 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+li:before {
+    content: "\f111"; /* FontAwesome Unicode */
+    color: #F29119;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 6px;
+    width: 1.3em;
+}

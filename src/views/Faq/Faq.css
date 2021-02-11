@@ -1,0 +1,32 @@
+.bike-img{
+    height: 295px;
+}
+.topic-title {
+    color: #104772;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.arrows {
+    position: absolute;
+    right: 20px;
+}
+.reserve-panel {
+    background-color: #E5E5E5;
+}
+.title {
+    color: #104772;
+    font-family: Bold Roman;
+}
+.reserve-btn {
+    color: #fff;
+    background-color: #F29119;
+    border-radius: 35px;
+    font-size: 35px;
+}
+.faq-card {
+    background-color: #F7F7F7;
+}
+.faq-desc {
+    color: #616161;
+    font-weight: 400;
+}

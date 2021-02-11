@@ -1,0 +1,243 @@
+/*
+.slider {
+    position: relative;
+    img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .carousel-caption {
+        opacity: 0;
+    }
+    .bgimg {
+        &:hover {
+            width: 100%;
+            height: 100%;
+            background: #104772 0% 0% no-repeat padding-box;
+            top: 0;
+            bottom: 0;
+            opacity: 0.6;
+            border-radius: 20px;
+            .carousel-caption {
+                opacity: 1;
+            }
+        }
+    }
+
+}*/
+.slider {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.img-container {
+  position: relative;
+  max-width: 540px;
+  max-height: 340px;
+
+  &:hover {
+    .overlay-effect {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    .overlay-content {
+      visibility: visible;
+      cursor: pointer;
+    }
+  }
+}
+
+.images {
+  border-radius: 20px;
+  display: block;
+  max-width: 540px;
+  max-height: 340px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  .beach-img {
+    min-width: 100% !important;
+    min-height: 100% !important;
+  }
+  .beach-view-title {
+    top: -440px !important;
+  }
+  .img-container .overlay-effect {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .overlay-content {
+    visibility: visible !important;
+    cursor: pointer;
+  }
+
+  .img-container .overlay-effect {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .img-container .overlay-title {
+    opacity: 1 !important;
+  }
+
+  .img-container .activity-text {
+    opacity: 1 !important;
+  }
+}
+
+.beach-img {
+  border-radius: 20px;
+  display: block;
+  max-width: 350px !important;
+  max-height: 485px !important;
+  width: 100%;
+}
+
+.overlay-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 540px;
+  max-height: 340px;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 20px;
+  background: #104772 0% 0% no-repeat padding-box;
+}
+
+.bg-transparent {
+  background: transparent 0% 0% no-repeat padding-box !important;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.background-transparent {
+  background: transparent linear-gradient(1deg, #104772 0%, #104772 38%, #F6F6F6 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.img-container:hover .overlay-effect {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.img-container:hover .overlay-effect {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.img-container:hover .overlay-title {
+  opacity: 1 !important;
+}
+
+.img-container:hover .activity-text {
+  opacity: 1 !important;
+}
+
+.activity-text {
+  color: #FFF;
+  font-weight: 800;
+  opacity: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.layer-text-view {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 99999;
+  opacity: 0;
+}
+
+.activity-view {
+  position: absolute;
+  right: 0;
+  bottom: 49px;
+  margin-right: 53px;
+  letter-spacing: 0.63px;
+  color: #FFF;
+  font-size: 25px;
+}
+
+.overlay-title {
+  position: absolute;
+  top: -325px;
+  color: #FFF;
+  margin-top: 10px;
+  z-index: 9999;
+  opacity: 0 !important;
+  font-weight: 800;
+}
+
+.beach-view-title {
+  top: -465px;
+}
+
+.no-image {
+  top: -300px !important;
+}
+
+.carousel-caption {
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+.overlay-content {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 111;
+  visibility: hidden;
+}
+
+.prices-view {
+  letter-spacing: 0.63px;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-indicators {
+  display: none;
+}

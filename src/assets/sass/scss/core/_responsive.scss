@@ -1,0 +1,507 @@
+@media (min-width: 992px) {
+  .main-panel {
+    background: theme-color('secondary');
+    width: calc(100% - 250px);
+    .main-content {
+      border-radius: 25px 0px 0px 0px;
+      background: white;
+      // padding-left:250px;
+    }
+  }
+
+  .navbar {
+    .navbar-header {
+      padding-left: 240px;
+    }
+    .navbar-container {
+      padding-left: 250px;
+    }
+  }
+  footer {
+    padding-left: 250px;
+    margin-top: 2rem;
+  }
+
+  .sidebar-sm {
+    .main-panel .main-content {
+      padding-left: 220px;
+    }
+    .navbar {
+      .navbar-header {
+        padding-left: 210px;
+      }
+      .navbar-container {
+        padding-left: 220px;
+      }
+    }
+    footer {
+      padding-left: 220px;
+    }
+  }
+
+  .sidebar-lg {
+    .main-panel .main-content {
+      padding-left: 280px;
+    }
+    .navbar {
+      .navbar-header {
+        padding-left: 270px;
+      }
+      .navbar-container {
+        padding-left: 280px;
+      }
+    }
+    footer {
+      padding-left: 280px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .app-sidebar {
+    transition: transform .4s cubic-bezier(.25, .8, .25, 1);
+  }
+  .navbar {
+    padding: 20px 20px;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 0 auto;
+  }
+
+  .navbar-header .navbar-toggle {
+    margin: 10px 15px 10px 0;
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-header .navbar-collapse-toggle {
+    margin: 20px 0px 10px 15px;
+  }
+  .navbar-form {
+    margin-top: .75rem !important;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    outline: 1px solid transparent;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  /*.main-page {
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+  }*/
+  .logo-image {
+    margin-left: 0px !important;
+  }
+  .main-title-div {
+    left: 0 !important;
+    top: 20px;
+  }
+  .infotext {
+    font-size: 40px !important;
+  }
+  .sub-title-div {
+    left: 12px !important;
+    bottom: 100px !important;
+  }
+  .main-booking {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    margin-top: 20px;
+  }
+  .title-text-about {
+    text-align: center;
+  }
+  .infotext {
+    font-size: 30px !important;
+  }
+  .sub-title-div {
+    bottom: 127px !important;
+  }
+  .info-text-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-page {
+    margin-top: 0px !important;
+  }
+  .home-image {
+    height: 475px !important;
+  }
+  .infotext {
+    font-size: 25px !important;
+    margin-left: 0% !important;
+    text-align: center;
+  }
+  .home-btn {
+    margin: 7% !important;
+  }
+  .res-button-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .main-booking {
+    width: 100% !important;
+    margin: auto;
+  }
+  .about-View {
+    margin-top: 58%;
+  }
+  .about-View-position {
+    margin-top: 84% !important;
+  }
+  .desc-text {
+    width: 100% !important;
+  }
+  .btn-orange {
+    width: 50% !important;
+  }
+  .btn-checkout {
+    width: 100% !important;
+  }
+  .rental-title {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .overlay-title {
+    font-size: 6vw;
+  }
+  .activity-view {
+    font-size: 20px !important;
+    /*bottom: 20px !important;*/
+  }
+  .content-text {
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .followus-text {
+    text-align: center;
+    font-size: 16px !important;
+  }
+  .follow-us-text {
+    margin-top: 0px !important;
+  }
+
+  .card-view {
+    margin-left: 20px;
+  }
+  .card-main-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .inquiry-view {
+    padding: 32px !important;
+  }
+  .faq-bike-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reserve-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .reserve-btn {
+    font-size: 25px !important;
+  }
+  .faq-title {
+    text-align: center;
+  }
+  .navbar-form {
+    display: none;
+  }
+  .text-feedback {
+    height: max-content;
+    margin-top: 23px;
+  }
+  .content-text {
+    margin-top: 0px !important;
+  }
+  .rental-title {
+    justify-content: center !important;
+    text-align: center;
+  }
+  .rental-text {
+    font-size: 25px !important;
+  }
+  .notification-dropdown {
+    width: 300px;
+    .noti-wrapper {
+      white-space: initial;
+    }
+  }
+  .dropdown-toggle::after {
+    margin-left: 13.255em !important;
+  }
+  .main-title {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-title-div {
+    position: unset !important;
+    left: 0 !important;
+  }
+  .sub-title-div {
+    position: unset !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    margin-left: -34px !important;
+  }
+  .overlay-title {
+    /*top: -207px !important;*/
+  }
+  .payment-title {
+    justify-content: center !important;
+  }
+  .payment-subtitle {
+    text-align: center;
+  }
+  .title-section {
+    flex-flow: column;
+  }
+  .payment-tb-row {
+    flex-flow: row;
+  }
+  .msg-btn {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 320px) and (min-height: 568px) {
+  .infotext {
+    font-size: 18px !important;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .beach-view-title {
+    top: -382px !important;
+  }
+  .activity-view{
+    right: -28px !important;
+    top: -70px !important;
+  }
+  .navbar-right {
+    float: right !important;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .date-picer-view {
+    height: 75% !important;
+  }
+  .h-60 {
+    height: 60%;
+  }
+  .about-View-position {
+    margin-top: 88% !important;
+  }
+}
+
+
+/*@media (max-width: 640px) and (orientation: landscape) {
+  .infotext {
+    font-size: 7vw !important;
+    margin-left: 0% !important;
+    text-align: center;
+    line-height: 50px;
+  }
+  .dynamic-button {
+    margin: 7% !important;
+  }
+  .res-button-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+}*/
+
+@media (max-width: 320px) {
+  .navbar-right {
+    // display: none;
+  }
+  .notification-dropdown {
+    width: 250px;
+  }
+}
+
+[dir="rtl"] {
+  @media (min-width: 992px) {
+    .main-panel {
+      .main-content {
+        padding-right: 250px;
+        padding-left: 0 !important;
+      }
+    }
+
+    .navbar {
+      .navbar-header {
+        padding-right: 240px;
+        padding-left: 0 !important;
+      }
+      .navbar-container {
+        padding-right: 250px;
+        padding-left: 0 !important;
+      }
+    }
+    footer {
+      padding-right: 250px;
+      padding-left: 0 !important;
+    }
+
+    .sidebar-sm {
+      .main-panel .main-content {
+        padding-right: 220px;
+        padding-left: 0 !important;
+      }
+      .navbar {
+        .navbar-header {
+          padding-right: 210px;
+          padding-left: 0 !important;
+        }
+        .navbar-container {
+          padding-right: 220px;
+          padding-left: 0 !important;
+        }
+      }
+      footer {
+        padding-right: 220px;
+        padding-left: 0 !important;
+      }
+    }
+
+    .sidebar-lg {
+      .main-panel .main-content {
+        padding-right: 280px;
+        padding-left: 0 !important;
+      }
+      .navbar {
+        .navbar-header {
+          padding-right: 270px;
+          padding-left: 0 !important;
+        }
+        .navbar-container {
+          padding-right: 280px;
+          padding-left: 0 !important;
+        }
+      }
+      footer {
+        padding-right: 280px;
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .navbar-header .navbar-toggle {
+      margin: 10px 0 10px 15px;
+    }
+    .navbar-header .navbar-collapse-toggle {
+      margin: 20px 15px 10px 0px;
+    }
+  }
+
+  @media (min-width: 320px) {
+    .navbar-header {
+      float: right;
+    }
+    .navbar-right {
+      float: left !important;
+    }
+    .navbar-nav > li {
+      float: right;
+    }
+  }
+
+}
+
+.navbar-header .navbar-collapse-toggle {
+  @include tablet {
+    margin: 20px 12px 10px 15px;
+  }
+
+}
+
+.navbar-header .navbar-toggle {
+  @include tablet {
+    margin: 10px 15px 10px 12px;
+  }
+}

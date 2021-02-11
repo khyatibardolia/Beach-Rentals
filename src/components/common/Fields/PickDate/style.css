@@ -1,0 +1,45 @@
+.label-text {
+    color:#122D5E;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    font-family: Regular;
+}
+.date_picker {
+    border-color: transparent;
+    background-color: #f5f5f5;
+    outline: none;
+}
+.date_picker:focus {
+    border-color: transparent !important;
+    background-color: #f5f5f5 !important;
+}
+.date-title {
+    font-weight: 400;
+}
+
+.datepicker-container {
+    cursor: pointer !important;
+}
+
+.date-text {
+    text-align: left;
+    font-family: Circular Std;
+    color: #122D5E;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 22px;
+}
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.red-border {
+    border-color: red !important;
+}
+
+.booking-from-input-text-color {
+    color: #616161 !important;
+    background: #FFF 0 0 no-repeat padding-box;
+}

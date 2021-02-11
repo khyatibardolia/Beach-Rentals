@@ -1,0 +1,118 @@
+.custom-table {
+  border-collapse:separate;
+  border-spacing:0 15px;
+  color: theme-color('primary');
+  thead {
+    th {
+      border: none;
+    }
+  }
+  th , td {
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid  #F0F0F0;
+  }
+
+  tr {
+    background: #FFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 30px #CBCBCB33;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    opacity: 1;
+    td:first-child {
+      border-left: 1px solid #F0F0F0;
+    }
+    td:last-child {
+     // border: 1px solid red;
+      //background: #008000 0% 0% no-repeat padding-box;
+     // border-radius: 0px 15px 15px 0px;
+    }
+  }
+
+  td.index {
+    background: theme-color('secondary');
+    color: theme-color('primary');
+    vertical-align: middle;
+    text-align: center;
+  }
+  td.content {
+    width: 90%;
+  }
+  td.action {
+  }
+
+}
+.row-border-table {
+  border-collapse:separate;
+  border-spacing:0 15px;
+  color: theme-color('primary');
+  thead {
+    th {
+      border: none;
+    }
+  }
+  th , td {
+    border-bottom: 1px solid  #F0F0F0;
+  }
+
+  tr {
+    background: #FFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 30px #CBCBCB33;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    opacity: 1;
+    td:first-child {
+      border-left: 1px solid #F0F0F0;
+    }
+    td:last-child {
+      border-right: 1px solid  #F0F0F0;
+
+    }
+  }
+
+  td.index {
+    background: theme-color('secondary');
+    color: theme-color('primary');
+    vertical-align: middle;
+    text-align: center;
+  }
+  td.content {
+    width: 100%;
+  }
+  td.action {
+  }
+
+}
+.custom-table-no-border {
+  color: theme-color('primary');
+  border-collapse:separate;
+  border-spacing:0 15px;
+  thead {
+    th {
+      border: none;
+    }
+  }
+  th , td {
+    border: none;
+    border-bottom: 1px solid #F0F0F0;
+  }
+
+  tr {
+    border: none;
+  }
+
+  td.index {
+    background: theme-color('secondary');
+    color: theme-color('primary');
+    vertical-align: middle;
+    text-align: center;
+  }
+  td.content {
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  td.action {
+  }
+
+}

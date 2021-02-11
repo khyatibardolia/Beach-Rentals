@@ -1,0 +1,23 @@
+.policies {
+  background: #FFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DEDBDB;
+  clear: both;
+  max-height: 300px;
+  display: block;
+  overflow: auto;
+  border-radius: 3px;
+  overflow-x: hidden;
+}
+
+.gray-text {
+  margin: 1rem 0;
+}
+
+.policies-content {
+  max-height: 300px;
+  overflow: auto;
+
+}
+ol li{
+  list-style-type: none;
+}

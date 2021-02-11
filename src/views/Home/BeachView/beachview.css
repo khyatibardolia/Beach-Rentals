@@ -1,0 +1,17 @@
+.beach-view {
+    /*margin-top: 66px;*/
+}
+.three-col {
+    float: left;
+    height: 400px;
+    width: 100%;
+    /* margin-left: 44px; */
+}
+/*.cart-image{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}*/
+.card-view {
+    /*margin-bottom: 100px;*/
+}

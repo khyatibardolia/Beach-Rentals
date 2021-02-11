@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Regular Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Regular Roman'), url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Bold Roman';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Bold Roman'), url('./assets/fonts/PlayfairDisplay-Bold.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Black Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Black Roman'), url('./assets/fonts/PlayfairDisplay-Black.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Regular';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Regular'), url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  font-style: normal;
+  src:  url('assets/fonts/circular_std/circular_std_font.ttf');
+}

@@ -1,0 +1,11 @@
+.home-btn {
+    margin: 5% 18%;
+    background-color: #F29119;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 15px;
+    width: 174px;
+    height: 43px;
+    /* padding: 20px; */
+    font-family: Bold Roman;
+}

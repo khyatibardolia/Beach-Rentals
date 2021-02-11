@@ -1,0 +1,38 @@
+.custom-date-picker {
+  position: relative;
+
+  .selected-date {
+    padding-left: 30px;
+    color: #122D5E;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .datepicker-input {
+    border: none;
+    width: calc(100% - 20px);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .date-picker-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    ._custom-label {
+      letter-spacing: unset;
+      color: #122D5E;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

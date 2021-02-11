@@ -1,0 +1,75 @@
+.small-car-image {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.reserve-card {
+  border-radius: 20px 20px 20px 20px !important;
+  opacity: 1;
+}
+
+.reserve-card-info {
+  height: 100%;
+  max-height: 200px;
+}
+
+.reserve-card-description {
+  font: normal normal normal 16px/30px Circular Std Book;
+  letter-spacing: 0;
+  color: #616161;
+  opacity: 0.75;
+}
+
+.reserve-card-header {
+  background: #104772 0% 0% no-repeat padding-box !important;
+  border-radius: 20px 20px 0px 0px !important;
+  font: normal normal bold 22px/30px Playfair Display;
+  letter-spacing: 0.66px;
+}
+
+.info-card {
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+
+/*
+ul li::before {
+    content: "\2022";
+    color: #F29119;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+li::marker {
+    display: none;
+}*/
+/*ul li::before {
+  color: #F29119;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul {
+  list-style-type: none;
+}*/
+
+.carousel-control-prev-icon {
+  display: block !important;
+}
+
+.carousel-control-next-icon {
+  display: block !important;
+}
+
+.carousel-indicators {
+  display: flex !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .date-picker {
+    width: 100%;
+  }
+}
